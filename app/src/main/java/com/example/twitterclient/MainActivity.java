@@ -8,7 +8,6 @@ import twitter4j.conf.Configuration;
 import twitter4j.conf.ConfigurationBuilder;
 
 import android.app.Activity;
-import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -108,7 +107,8 @@ public class MainActivity extends Activity implements OnClickListener {
                     tweetTxt.post(new Runnable() {
                         @Override
                         public void run() {
-                            tweetTxt.setText("Hello!"); }
+                            tweetTxt.setText("Hello!");
+                        }
                     });
 
                 } catch (TwitterException te) {
@@ -120,12 +120,12 @@ public class MainActivity extends Activity implements OnClickListener {
                 tweetTxt.post(new Runnable() {
                     @Override
                     public void run() {
-                        tweetTxt.setText("Hello!"); }
+                        tweetTxt.setText("Hello!");
+                    }
                 });
                 break;
             default:
                 break;
         }
-        //finish();
     }
 }

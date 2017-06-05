@@ -27,4 +27,5 @@
         <item>@color/darkorange</item>
         <item>@color/darkred</item>
     </integer-array>
+
 </resources>
