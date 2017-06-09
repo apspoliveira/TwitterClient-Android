@@ -107,7 +107,7 @@ public class MainActivity extends Activity implements OnClickListener {
                     tweetTxt.post(new Runnable() {
                         @Override
                         public void run() {
-                            tweetTxt.setText("Hello!");
+                            tweetTxt.setText("");
                         }
                     });
 
@@ -120,7 +120,7 @@ public class MainActivity extends Activity implements OnClickListener {
                 tweetTxt.post(new Runnable() {
                     @Override
                     public void run() {
-                        tweetTxt.setText("Hello!");
+                        tweetTxt.setText("");
                     }
                 });
                 break;
